@@ -1,10 +1,21 @@
 
-.p-menubar .p-menubar-root-list{
+.p-menubar .p-menubar-root-list {
     display: block;
     list-style-type: none;
     text-align: center;
-    background-color: #262728;
+
+    background-color: #262728 !important;
+
 }
+.p-menubar{
+    background-color: #262728 !important;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+}
+
 
 
 
@@ -13,11 +24,26 @@
 
 }
 
-span {
-    color: #3778ba;
 
-
-}
 .p-menuitem-text {
-    color: #3778ba;
+    color: #7f52ba !important;
+}
+.p-menuitem-icon{
+    color: #7f52ba !important;
+}
+.p-submenu-icon{
+    color: #7f52ba !important;
+}
+.p-menuitem-link:hover {
+    background-color: #4c4f55 !important;
+}
+.p-menuitem-link:active {
+    background-color: #4c4f55 !important;
+}
+
+.p-menuitem-link:focus {
+    background-color: #4c4f55 !important;
+}
+.p-submenu-list{
+    background-color: #262728 !important;
 }

@@ -2,11 +2,12 @@ import React, {Component} from 'react';
 
 // import primefaces component & stylesheet
 import {Menubar} from 'primereact/menubar';
+import './navbar.css';
 import 'primereact/resources/themes/nova-dark/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 
-import './navbar.css';
+
 
 // import des composant voué à la redirection
 import Home from "./home";
@@ -20,7 +21,7 @@ class NavBar extends Component {
             items: [
                 {
                     label: 'ACCUEIL',
-                    style:{color='blue'},
+
                     icon: 'pi pi-fw pi-home',
                     command: () => {
                         this.props.selectItemClick(<Home/>)
