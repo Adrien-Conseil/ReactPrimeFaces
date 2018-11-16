@@ -1,0 +1,20 @@
+h1{
+    align-content: center;
+    color:#7f52ba;
+}
+
+.oschoice{
+    margin: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.stepone{
+    text-align: center;
+}
+.p-button{
+    padding: 5px;
+    margin: 10px !important;
+}

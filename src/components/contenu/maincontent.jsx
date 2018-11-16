@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import {Grid, Col, Row} from 'react-bootstrap';
-import Article from './article';
+import Article from './components/article/article';
 import './maincontent.css';
+
 
 
 class Maincontent extends Component {
@@ -51,7 +52,7 @@ class Maincontent extends Component {
                         </Col>
                         <Col md={8} xs={10}>
                         <div className="maincontainer">
-                            regfkjiàrtvgjà'k
+                            {this.props.componenttoshow}
                         </div>
                         </Col>
                     </Col>

@@ -10,7 +10,8 @@ import 'primeicons/primeicons.css';
 
 
 // import des composant voué à la redirection
-import Home from "./home";
+import Home from "../contenu/components/home/home";
+import Join from "../contenu/components/join/join"
 
 class NavBar extends Component {
 
@@ -24,6 +25,8 @@ class NavBar extends Component {
 
                     icon: 'pi pi-fw pi-home',
                     command: () => {
+                        {/*passage du compomnent de redirection en props pour être réccupérer dans
+                        le component parent soit app.js*/}
                         this.props.selectItemClick(<Home/>)
                     }
                 },
@@ -31,7 +34,7 @@ class NavBar extends Component {
                     label: 'NOUS REJOINDRE',
                     icon: 'pi pi-fw pi-user-plus',
                     command: () => {
-                        this.props.selectItemClick(<Home/>)
+                        this.props.selectItemClick(<Join/>)
                     }
                 },
 
